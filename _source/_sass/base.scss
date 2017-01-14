@@ -1,0 +1,286 @@
+html {
+        font-size: 18px;
+        font-weight: 300;
+        background-color: #FFF;
+}
+
+p, span, a, ul, small {
+        color: #3A4145;
+        font-size: 18px;
+        line-height: 1.7;
+        font-family: 'Source Sans Pro', arial, sans-serif;
+        font-weight: 300;
+}
+
+article p, article ul {
+  letter-spacing: 0.1px;
+  text-rendering: geometricPrecision;
+}
+
+h1, h2, h3, h4 {
+        /*font-weight: 300;*/
+        font-weight: 400;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-rendering: geometricPrecision;
+        color: #8DBB57;
+        line-height: 1.8;
+}
+
+h1, #header-text a {
+        font-size: 30pt;
+        line-height: 58px;
+        font-weight: 400;
+        border-bottom: none;
+        /*padding-bottom: 10px;*/
+}
+
+h3 a .fa, h4 a .fa {
+  color: #3A4145;
+}
+
+h3 a .fa:hover, h4 a .fa:hover {
+  color: #8DBB57;
+}
+
+#header-image, #header-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#header-image {
+  margin: 0;
+  padding: 0;
+}
+
+#header-image img {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  top: 8px;
+}
+
+#header-text a {
+  color: white;
+}
+
+#header-text {
+  margin-right: 12px;
+}
+
+h2 {
+        font-size: 24px;
+}
+
+h3 {
+        font-size: 20px;
+}
+
+h3 > a {
+  font-size: 20px;
+}
+
+#blog h2, #blog h2 > a {
+  font-size: 28px;
+}
+
+#blog h3, #blog h3 > a {
+  font-size: 24px;
+}
+
+#blog h4, #blog h4 > a {
+  font-size: 20px;
+}
+
+small {
+  font-size: 14px;
+}
+
+body > header {
+        background-color: #8DBB57;
+        text-align: center;
+        /*box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);*/
+}
+
+a {
+        /*color: #03a9F4;*/
+        color: #8DBB57;
+        text-decoration: none;
+        border-bottom: 1px #8DBB57 dotted;
+}
+
+img {
+  max-width: 100%;
+}
+
+.center-image {
+  margin: 0 auto;
+  display: block;
+}
+
+.center-text {
+  text-align: center
+}
+
+#header-content h1, #header-content h2, #header-content h3 {
+        margin: 0;
+        padding: 0;
+        color: white;
+}
+
+#header-content {
+  margin-top: 12px;
+}
+
+main {
+        max-width: 680px;
+        margin: auto;
+        padding-left: 2em;
+        padding-right: 2em;
+}
+
+main > article > h2:not(:first-child) {
+  margin-top: 2rem;
+}
+
+#blog img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#blog h3, #blog h2, #blog h4 {
+  margin-bottom: 0px;
+}
+
+#blog ul {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+section {
+}
+
+#header-content > .links > .button-link {
+        width: 8.2rem;
+        /*color: #8DBB57;*/
+        /*border: 1px solid #8DBB57;*/
+        /*background: #FCFCFC;*/
+        background: #8DBB57;
+        border: 1px solid #FCFCFC;
+        color: #FCFCFC;
+        margin-top: 2px;
+        margin-bottom: 2px;
+
+        font-size: 16px;
+        line-height: 14px;
+}
+
+.links {
+        text-align: center;
+}
+
+#bunny_image {
+  width: 100% !important;
+  height: 100% !important
+}
+
+.post-meta > small {
+  display: block;
+}
+
+.post-title {
+  margin-top: 18px;
+}
+
+#blog {
+  padding-bottom: 6px;
+}
+
+// author image
+
+.author-image {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    margin-left: -40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    overflow: hidden;
+    padding: 6px;
+    background: #fff;
+    z-index: 2;
+    box-shadow: #E7EEF2 0 0 0 1px;
+}
+
+.author-image .img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 100%;
+}
+
+.post-footer {
+    position: relative;
+    margin: 60px 0 0 0;
+    padding: 60px 0 0 0;
+    border-top: #EBF2F6 1px solid;
+}
+
+.post-footer .share {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    text-align: right;
+}
+
+.post-footer .share a {
+    display: inline-block;
+    border-bottom: none;
+}
+
+.post-footer .author {
+  margin-right: 200px;
+}
+
+.post-footer .author p, .post-footer .share p {
+  margin: 0;
+}
+
+.post-footer .author a {
+  color: #3A4145;
+  font-weight: 400;
+}
+
+.post-footer .author a:hover {
+  color: #8DBB57;
+}
+
+.gist {
+  font-size: 13px !important;
+  line-height: 1.4 !important;
+
+  td, tr, p, span, a, ul, small {
+    font-size: 13px !important;
+    line-height: 1.4 !important;
+  }
+}
+
+.gist-meta {
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+}
+
+.gist-meta a {
+  font-size: 14px;
+}

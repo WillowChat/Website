@@ -1,0 +1,24 @@
+source: ./_source
+permalink: /posts/:year/:month/:title/
+
+title: Willow Chat
+email: hi@willow.chat
+description: > # this means to ignore newlines until "baseurl:"
+  Willow Chat - umbrella for carrot's IRC projects
+baseurl: ""
+url: "https://willow.chat"
+twitter_username: CarrotCodes
+github_username:  WillowChat
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+sass:
+  sass_dir: _sass
+  style: :compressed
